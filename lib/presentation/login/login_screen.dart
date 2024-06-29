@@ -1,11 +1,10 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:team_m/shared/components.dart';
+import '../../modules/layout.dart';
 
-import 'layout.dart';
-
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class LoginView extends StatelessWidget {
+  const LoginView({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

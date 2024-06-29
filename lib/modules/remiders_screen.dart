@@ -46,7 +46,13 @@ void showForm(BuildContext context, int? itemKey) {
 class _ReminderScreenState extends State<ReminderScreen> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 50),
+        child: FloatingActionButton(
+          onPressed: () {},
+        ),
+      ),
+    );
   }
 }
